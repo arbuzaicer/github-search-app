@@ -6,9 +6,11 @@
       "dom.iterable",
       "esnext"
     ],
+    "baseUrl": "src",
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "typeRoots": ["node_modules/@types", "./src/typings"],
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
@@ -21,6 +23,6 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "./src/**/*.ts"
   ]
 }

@@ -1,0 +1,21 @@
+@import "reset.scss";
+
+$base-gray-color: #3a4047;
+$base-yellow-color: #fef3c9;
+$base-darkGray-color:  #2c3136;
+$base-lightGray-color:  #596672;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $base-gray-color;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
